@@ -12,7 +12,7 @@ def bubbleSort(alist):
 	return alist
 
 def read_matrix(filedescriptor):
-	"Read matrix in f, construct list of lists and return constructed object"
+	"Read matrix, construct list of lists and return constructed object"
 	f = open (filedescriptor,'r')
 	matrix = [ map(int,line.split(',')) for line in f ]
 	return matrix;
